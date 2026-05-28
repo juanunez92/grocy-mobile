@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grocy</title>
+  <script src="/p5.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <div id="logo-container">
+      <img src="/logo.png" alt="Logo Grocy" id="logo">
+    </div>
+    <div id="controls">
+
+      <input type="text" id="productInput" placeholder="Añadir producto" />
+
+      <button id="addButton">
+        Añadir
+      </button>
+
+    </div>
+
+    <ul id="shoppingList"></ul>
+    <section id="quick-products">
+      <h2>Productos rápidos</h2>
+
+      <div id="quickGrid">
+        <button class="quickItem">Pan</button>
+        <button class="quickItem">Leche</button>
+        <button class="quickItem">Huevos</button>
+        <button class="quickItem">Arroz</button>
+        <button class="quickItem">Pasta</button>
+        <button class="quickItem">Fruta</button>
+      </div>
+    </section>
+
+  </div>
+  <div id="p5-container"></div>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+
+</html>
